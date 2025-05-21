@@ -283,7 +283,6 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libssd \
     vendor.qti.hardware.tui_comm@1.0 \
-    ims \
     charge_only_mode \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     android.hardware.gatekeeper@1.0-service-qti \

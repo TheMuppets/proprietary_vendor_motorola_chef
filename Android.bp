@@ -7351,18 +7351,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-android_app_import {
-    name: "ims",
-    owner: "motorola",
-    apk: "proprietary/system_ext/priv-app/ims/ims.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    system_ext_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "charge_only_mode",
     owner: "motorola",
